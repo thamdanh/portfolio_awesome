@@ -1,0 +1,81 @@
+[
+  {
+    "title": "New ways to connect with Article Reactions! ✨",
+    "publishedAt": "2025-03-22T00:00:00.000Z",
+    "imageName": "article-reactions.jpeg",
+    "slug": "article-reactions",
+    "code": "const{Fragment:e,jsx:t,jsxs:n}=arguments[0];function _createMdxContent(i){const o={p:\"p\",...i.components};return n(e,{children:[t(o.p,{children:\"My blog has featured a built-in reaction system for years now. It might seem a bit unconventional for a typical blog, but I love how it adds a social dimension and showcases my personality.\"}),\"\\n\",t(o.p,{children:\"For this year's version, I've selected four distinct reactions: Like, Love, Celebrate, and Insightful. Each comes with its own custom icon and subtle micro-interaction for that extra polish.\"}),\"\\n\",t(o.p,{children:\"These small details make the reading experience more engaging while letting readers share their thoughts with just a click.\"})]})}return{default:function(e={}){const{wrapper:n}=e.components||{};return n?t(n,{...e,children:t(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "draft": false,
+    "slugAsParams": ""
+  },
+  {
+    "title": "Article hit count is now live!",
+    "publishedAt": "2025-03-20T00:00:00.000Z",
+    "imageName": "article-read-count.jpeg",
+    "slug": "article-read-count",
+    "code": "const{Fragment:e,jsx:t,jsxs:n}=arguments[0];function _createMdxContent(r){const i={p:\"p\",...r.components};return n(e,{children:[t(i.p,{children:\"I rebuilt the read counter from scratch for this portfolio iteration. Though simple to implement, this little feature breathes life into each page, adding that extra touch of personality.\"}),\"\\n\",t(i.p,{children:\"Behind the scenes, it runs on Supabase paired with Next.js Server Actions and React Suspense—a lightweight solution with a noticeable impact.\"})]})}return{default:function(e={}){const{wrapper:n}=e.components||{};return n?t(n,{...e,children:t(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "draft": false,
+    "slugAsParams": ""
+  },
+  {
+    "title": "Blogfolio V3 Released!",
+    "publishedAt": "2022-12-13T00:00:00.000Z",
+    "imageName": "blogfolio-v3-released.png",
+    "slug": "blogfolio-v3-released",
+    "code": "const{jsx:e}=arguments[0];function _createMdxContent(n){const t={p:\"p\",...n.components};return e(t.p,{children:\"My annual update released with several new features, including live link previews, a new article layout and design, and revamped open graph system for generating sharing images!\"})}return{default:function(n={}){const{wrapper:t}=n.components||{};return t?e(t,{...n,children:e(_createMdxContent,{...n})}):_createMdxContent(n)}};",
+    "draft": false,
+    "slugAsParams": ""
+  },
+  {
+    "title": "Blogfolio V5 is Now Live!",
+    "publishedAt": "2025-04-03T00:00:00.000Z",
+    "slug": "blogfolio-v5-is-live",
+    "code": "const{Fragment:e,jsx:t,jsxs:n}=arguments[0];function _createMdxContent(r){const o={p:\"p\",...r.components};return n(e,{children:[t(\"iframe\",{className:\"w-full\",height:\"515\",src:\"https://www.youtube.com/embed/A8JRge8GsTY\",frameBorder:\"0\",allow:\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\",allowFullScreen:!0}),\"\\n\",t(o.p,{children:'My annual \"Blogfolio\" refresh features a completely redesigned light-themed layout with Bento-style cards, enhanced by custom animations, improved code blocks, and interactive elements like the Community Wall and \"Now Listening\" Spotify integration—all rebuilt from the ground up using Next.js 15, Tailwind, Supabase, and Framer Motion!'})]})}return{default:function(e={}){const{wrapper:n}=e.components||{};return n?t(n,{...e,children:t(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "draft": false,
+    "slugAsParams": ""
+  },
+  {
+    "title": "Connections Page Revamp",
+    "publishedAt": "2023-11-06T17:00:00.000Z",
+    "imageName": "connections-page-revamp.png",
+    "slug": "connections-page-revamp",
+    "code": "const{Fragment:e,jsx:t,jsxs:n}=arguments[0];function _createMdxContent(o){const r={p:\"p\",...o.components};return n(e,{children:[t(r.p,{children:\"My new Connections page is ready to go!\"}),\"\\n\",t(r.p,{children:\"I'm proud of the this redesigned page, which showcases the great people I've met in tech and includes a list of those I want to meet. I've implemented a nice animation that slides in the \\\"Met on\\\" dates when hovering over a contact card, and I think it turned out great!\"})]})}return{default:function(e={}){const{wrapper:n}=e.components||{};return n?t(n,{...e,children:t(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "draft": false,
+    "slugAsParams": ""
+  },
+  {
+    "title": "New Homepage Animations",
+    "publishedAt": "2025-03-12T00:00:00.000Z",
+    "imageName": "new_homepage_animations.jpg",
+    "slug": "new-animations",
+    "code": "const{Fragment:t,jsx:e,jsxs:n}=arguments[0];function _createMdxContent(o){const i={p:\"p\",...o.components};return n(t,{children:[e(i.p,{children:\"Finally tackling those finishing touches before launch! Added some tasteful animations to bring a bit more life to the site without going overboard.\"}),\"\\n\",e(i.p,{children:'The profile picture now eases in smoothly, text elements fade up with a slight delay, and my favorite part - the highlighted photos now fan out in sequence when they appear.\\nTried to hit that sweet spot between \"barely noticeable\" and \"unnecessarily flashy.\" I think it adds just the right amount of polish without distracting from the content.'})]})}return{default:function(t={}){const{wrapper:n}=t.components||{};return n?e(n,{...t,children:e(_createMdxContent,{...t})}):_createMdxContent(t)}};",
+    "draft": false,
+    "slugAsParams": ""
+  },
+  {
+    "title": "Redesigned and Revamped Code Blocks",
+    "publishedAt": "2024-10-21T00:00:00.000Z",
+    "imageName": "new-code-blocks.png",
+    "slug": "new-code-blocks",
+    "code": "const{jsx:e}=arguments[0];function _createMdxContent(t){const o={p:\"p\",...t.components};return e(o.p,{children:\"The 2024 update of my website totally revamps how code blocks appear in blog posts. Now, code blocks sport a sleek, simple design with a subtle shadow. Plus, you can easily copy the code and see the filename right at the top of the code panel.\"})}return{default:function(t={}){const{wrapper:o}=t.components||{};return o?e(o,{...t,children:e(_createMdxContent,{...t})}):_createMdxContent(t)}};",
+    "draft": false,
+    "slugAsParams": ""
+  },
+  {
+    "title": "Nominated for Site of the Day at Awwwards!",
+    "publishedAt": "2025-04-18T00:00:00.000Z",
+    "imageName": "site_of_the_day.jpg",
+    "slug": "site-of-the-day",
+    "code": "const{Fragment:e,jsx:t,jsxs:n}=arguments[0];function _createMdxContent(o){const r={a:\"a\",p:\"p\",...o.components};return n(e,{children:[t(r.p,{children:\"My newly published website and blog have been nominated for Site of the Day at Awwwards! This is very exciting for me. I put a lot of tender loving care into this site, and I’m happy that others are enjoying it too!\"}),\"\\n\",n(r.p,{children:[\"Check out the nominee page \",t(r.a,{href:\"https://www.awwwards.com/sites/braydon-coyers-blogfolio\",children:\"here\"}),\"!\"]})]})}return{default:function(e={}){const{wrapper:n}=e.components||{};return n?t(n,{...e,children:t(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "draft": false,
+    "slugAsParams": ""
+  },
+  {
+    "title": "Visual Improvements and Interactive Bento Cards",
+    "publishedAt": "2023-11-24T00:00:00.000Z",
+    "slug": "visual-improvments-and-interactive-bento-cards",
+    "code": "const{Fragment:t,jsx:e,jsxs:n}=arguments[0];function _createMdxContent(i){const a={p:\"p\",...i.components};return n(t,{children:[e(a.p,{children:\"This update is packed with exciting visual enhancements! I've fine-tuned the maximum width for article text, ensured consistent spacing between elements and page sections, and brought interactivity to my bento cards through the amazing new Framer Component Effects!\"}),\"\\n\",e(a.p,{children:\"Additionally, I've incorporated captivating page transition effects. I'm getting ready for the official launch next month, and I can't wait to share it with you!\"})]})}return{default:function(t={}){const{wrapper:n}=t.components||{};return n?e(n,{...t,children:e(_createMdxContent,{...t})}):_createMdxContent(t)}};",
+    "draft": false,
+    "slugAsParams": ""
+  }
+]

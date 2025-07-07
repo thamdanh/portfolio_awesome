@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "NODE_ENV=production NEXT_PRIVATE_DEBUG=true next build",
+    "dev": "node scripts/run-velite.mjs && next dev",
+    "build": "node scripts/run-velite.mjs && NODE_ENV=production NEXT_PRIVATE_DEBUG=true next build",
     "export": "NODE_ENV=production next export",
     "start": "next start",
     "lint": "next lint"

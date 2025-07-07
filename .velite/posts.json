@@ -1,0 +1,16 @@
+[
+  {
+    "title": "5 Basic Tips for Angular Unit Testing",
+    "publishedAt": "2022-05-28T00:00:00.000Z",
+    "summary": "If you’re learning how to write unit tests in Angular, here are 5 basic tips to accelerate your learning.",
+    "imageName": "5_basic_tips_for_angular_unit_testing.jpeg",
+    "categories": [
+      "testing",
+      "angular"
+    ],
+    "slug": "simple-blog",
+    "code": "",
+    "draft": false,
+    "slugAsParams": ""
+  }
+]
