@@ -19,27 +19,27 @@ const footerSections: FooterSection[] = [
     links: [
       { href: "/", label: "Home" },
       { href: "/about", label: "About" },
-      { href: "/projects", label: "Projects" },
-      { href: "/blog", label: "Blog" },
+      // { href: "/projects", label: "Projects" },
+      // { href: "/blog", label: "Blog" },
     ],
   },
   {
     title: "Specifics",
     links: [
       { href: "/toolbox", label: "Toolbox" },
-      { href: "/speaking", label: "Speaking" },
-      {
-        href: "https://braydoncoyer.lemonsqueezy.com/",
-        label: "Products",
-        isExternal: true,
-      },
+      // { href: "/speaking", label: "Speaking" },
+      // {
+      //   href: "https://...",
+      //   label: "Products",
+      //   isExternal: true,
+      // },
       { href: "/community-wall", label: "Community Wall" },
     ],
   },
   {
     title: "Extra",
     links: [
-      { href: "/changelog", label: "Changelog" },
+      // { href: "/changelog", label: "Changelog" },
       { href: "/connections", label: "Connections" },
       { href: "/links", label: "Links" },
     ],
@@ -69,17 +69,17 @@ export function Footer(): JSX.Element {
                   <Link className="inline-block" href="/">
                     <img
                       className="h-10 w-10"
-                      src="/bcoyerlogo_dark.svg"
-                      alt="Braydon's Logo"
+                      src="/chibi_tilly_head_icon_150x150.jpg"
+                      alt="Tilly's Logo"
                     />
                   </Link>
                   <p className="w-60 leading-5 text-gray-500">
-                    I&apos;m Braydon - a senior front-end developer, blogger and
+                    I&apos;m Tilly - a senior QA engineer, blogger and
                     public speaker. Thanks for checking out my site!
                   </p>
                 </div>
                 <p className="mt-6 text-gray-500">
-                  © {new Date().getFullYear()} Braydon Coyer
+                  © {new Date().getFullYear()} Tilly Danh
                 </p>
               </div>
               <div className="flex w-full items-end justify-end pr-16">

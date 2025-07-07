@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /community-wall
+Disallow: /links/
+Disallow: /changelog
+
+Sitemap: https://thamdanh.github.io/portfolio/sitemap.xml

@@ -2,7 +2,7 @@ import { BgGradient } from "./components/BgGradient";
 import { NewsletterSignUp } from "./components/NewsletterSignUp";
 import { ChangelogBento } from "./components/ChangelogBento";
 import { fetchAndSortBlogPosts } from "./lib/utils";
-import { SpeakingBento } from "./components/SpeakingBento";
+// import { SpeakingBento } from "./components/SpeakingBento";
 import { CommunityWallBento } from "./components/CommunityWallBento";
 import { CalendarBento } from "./components/CalendarBento";
 import { FeaturedBlogCard } from "./components/FeaturedBlogCard";
@@ -37,7 +37,7 @@ export default async function Home() {
                 delay={HEADING_DELAY}
                 className="mx-auto max-w-2xl text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]"
               >
-                Hey, I&apos;m Braydon! <br /> Welcome to my corner of the
+                Hey, I&apos;m Tilly! <br /> Welcome to my corner of the
                 internet!
               </AnimatedText>
             </GridWrapper>
@@ -48,10 +48,10 @@ export default async function Home() {
                   delay={PARAGRAPH_DELAY}
                   className="leading-8 text-text-secondary"
                 >
-                  I&apos;m a front-end developer with a love for design and a
-                  knack for tinkering. This site is intentionally
+                  I&apos;m a quality assurance engineer with a passion for uncovering issues and a
+                  knack for breaking things (on purpose). This site is intentionally
                   over-engineered and serves as my playground for experimenting
-                  with new ideas and seeing what sticks!
+                  with testing ideas and exploring what makes software truly reliable!
                 </AnimatedText>
               </div>
             </GridWrapper>
@@ -171,7 +171,7 @@ export default async function Home() {
               <span className="col-span-1 h-[276px] sm:block md:hidden lg:block">
                 <ChangelogBento />
               </span>
-              <SpeakingBento />
+              {/*<SpeakingBento />*/}
               <CommunityWallBento />
             </div>
           </GridWrapper>

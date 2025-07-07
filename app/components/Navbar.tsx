@@ -14,9 +14,9 @@ type NavigationLink = {
 const navigationLinks: readonly NavigationLink[] = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
-  { name: "Blog", link: "/blog" },
-  { name: "Projects", link: "/projects" },
-  { name: "Speaking", link: "/speaking" },
+  // { name: "Blog", link: "/blog" },
+  // { name: "Projects", link: "/projects" },
+  // { name: "Speaking", link: "/speaking" },
   { name: "Toolbox", link: "/toolbox" },
 ] as const;
 
@@ -45,8 +45,8 @@ function DesktopNav() {
         <Link href="/" aria-label="Home">
           <img
             className="h-6 w-6"
-            src="/bcoyerlogo_dark.svg"
-            alt="Braydon's Logo"
+            src="/chibi_tilly_head_icon_150x150.jpg"
+            alt="Tilly's Logo"
           />
         </Link>
       </div>
@@ -138,8 +138,8 @@ const NavLogo: React.FC<NavLogoProps> = ({ onClickCallback }) => {
     <Link href="/" onClick={() => onClickCallback(false)} aria-label="Home">
       <img
         className="h-8 w-8"
-        src="/bcoyerlogo_dark.svg"
-        alt="Braydon's Logo"
+        src="/chibi_tilly_head_icon_150x150.jpg"
+        alt="Tilly's Logo"
       />
     </Link>
   );

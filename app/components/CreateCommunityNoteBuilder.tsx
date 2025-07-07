@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 import { patterns } from "../lib/communityWall/types";
 import { CommunityWallCard } from "./CommunityWallCard";
 
@@ -20,6 +20,12 @@ export function CreateCommunityNoteBuilder({
   );
   const [rotation, setRotation] = useState(0);
 
+  
+   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+     event.preventDefault();
+      const formData = new FormData(event.currentTarget);
+      onSubmit(formData);
+   }
   const handlePrevPattern = () => {
     setPatternIndex((prev) => (prev - 1 + patterns.length) % patterns.length);
   };
@@ -37,7 +43,7 @@ export function CreateCommunityNoteBuilder({
 
   return (
     <form
-      action={onSubmit}
+      onSubmit={handleSubmit}
       className="flex h-full flex-col items-center justify-center gap-6"
     >
       <div className="flex items-center gap-6">

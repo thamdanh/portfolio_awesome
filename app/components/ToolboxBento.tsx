@@ -1,7 +1,7 @@
-import { softwareData } from "../data/toolbox";
+import { softwareData } from "../data/toolboxQA";
 import { BentoCard } from "./BentoCard";
 
-const items = softwareData
+const items = softwareData.slice(4, 10)
   .map((item, index) => (
     <div key={item.title} className="group inline-block text-center">
       <div

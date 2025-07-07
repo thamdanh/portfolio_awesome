@@ -1,13 +1,14 @@
 import { BorderCard } from "@/app/components/BorderCard";
 import { NewsletterSignUp } from "@/app/components/NewsletterSignUp";
-import { hardwareData, softwareData } from "app/data/toolbox";
+import { hardwareData, softwareData } from "app/data/toolboxQA";
 import { HorizontalLine } from "@/app/components/HorizontalLine";
 import { GridWrapper } from "@/app/components/GridWrapper";
+import Image from 'next/image';
 
 export default function ToolboxPage() {
   return (
     <div className="relative">
-      <title>Toolbox | Braydon Coyer</title>
+      <title>Toolbox | Tilly Danh</title>
       <span className="absolute left-1/2 top-20 -translate-y-1/2 translate-x-1/2">
         <HorizontalLine />
       </span>

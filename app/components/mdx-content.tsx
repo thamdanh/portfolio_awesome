@@ -3,6 +3,7 @@ import * as runtime from "react/jsx-runtime";
 import { highlight } from "sugar-high";
 import { HorizontalLine } from "./HorizontalLine";
 import Link from "next/link";
+import Image from 'next/image';
 
 interface MDXProps {
   code: string;

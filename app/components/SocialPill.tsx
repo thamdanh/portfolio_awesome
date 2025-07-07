@@ -3,7 +3,7 @@ import { siteMetadata } from "app/data/siteMetadata";
 export function SocialPill() {
   return (
     <div className="z-30 flex place-items-center space-x-1 rounded-full bg-dark-primary px-3 py-1.5">
-      <a href={siteMetadata.twitter}>
+      {/*<a href={siteMetadata.twitter}>
         <svg
           className="h-6 w-6 text-gray-400 hover:text-gray-300"
           viewBox="0 0 24 24"
@@ -19,7 +19,7 @@ export function SocialPill() {
           ></path>
         </svg>
         <span className="sr-only">Twitter</span>
-      </a>
+      </a>*/}
       <a href={siteMetadata.linkedin}>
         <svg
           className="h-6 w-6 text-gray-400 hover:text-gray-300"

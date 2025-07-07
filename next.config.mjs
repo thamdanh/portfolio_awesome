@@ -8,31 +8,12 @@ if (!process.env.VELITE_STARTED && (isDev || isBuild)) {
 
 /** @type {import('next').NextConfig} */
 const config = {
-  async redirects() {
-    return [
-      {
-        source: "/archives/v1",
-        destination: "https://wizardly-payne-b3707b.netlify.app/",
-        permanent: true,
-      },
-      {
-        source: "/archives/v2",
-        destination: "https://braydoncoyer-2hvriu779-braydon-coyer.vercel.app/",
-        permanent: true,
-      },
-      {
-        source: "/archives/v3",
-        destination:
-          "https://braydoncoyer-dev-git-v3-braydon-coyer.vercel.app/",
-        permanent: true,
-      },
-      {
-        source: "/archives/v4",
-        destination: "https://braydoncoyer.framer.website/",
-        permanent: true,
-      },
-    ];
+  // output: "export", // ✅ Enable static export 
+  images: {
+    unoptimized: true, // ✅ Required for <Image /> to work in static HTML
   },
+  basePath: "/porfolio", // MUST match your GitHub repo name
+  assetPrefix: "/porfolio", // Ensures assets resolve correctly
 };
 
 export default config;

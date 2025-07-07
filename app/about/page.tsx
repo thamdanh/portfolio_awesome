@@ -18,7 +18,7 @@ export default function AboutPage() {
 
   return (
     <div className="relative mt-14">
-      <title>About | Braydon Coyer</title>
+      <title>About | Tilly Danh</title>
       <div className="relative space-y-10 md:space-y-16">
         {/* Title */}
         <GridWrapper className="space-y-12">
@@ -27,8 +27,8 @@ export default function AboutPage() {
               <div className="text-center text-sm font-medium text-indigo-600 lg:text-left">
                 <span>{timeOfDayGreeting}</span>
               </div>
-              <h1 className="mx-auto max-w-2xl text-balance text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-5xl lg:text-left lg:text-6xl lg:leading-[64px]">
-                I&apos;m Braydon, a creative frontend engineer.
+               <h1 className="mx-auto max-w-2xl text-balance text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-5xl lg:text-left lg:text-6xl lg:leading-[64px]">
+                I&apos;m Tilly, a QA engineer passionate about clean, reliable software.
               </h1>
             </div>
             <div className="order-1 my-12 flex-shrink-0 lg:order-2 lg:my-0">
@@ -38,8 +38,8 @@ export default function AboutPage() {
                     <Photo
                       width={140}
                       height={140}
-                      src="/braydon_speaking_photo.jpeg"
-                      alt="Braydon Coyer"
+                      src="/tillydanh_headshot_2.png"
+                      alt="Tilly Danh"
                       direction="left"
                     />
                   </div>
@@ -47,8 +47,8 @@ export default function AboutPage() {
                     <Photo
                       width={140}
                       height={140}
-                      src="/braydon_headshot_1.jpeg"
-                      alt="Braydon Coyer"
+                      src="/tillydanh_headshot_1.png"
+                      alt="Tilly Danh"
                       direction="right"
                     />
                   </div>
@@ -56,8 +56,8 @@ export default function AboutPage() {
                     <Photo
                       width={140}
                       height={140}
-                      src="/braydon_headshot_3.jpg"
-                      alt="Braydon Coyer"
+                      src="/tillydanh_headshot_3.png"
+                      alt="Tilly Danh"
                       direction="left"
                     />
                   </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
             </GridWrapper>
             <GridWrapper>
               <h2 className="mx-auto max-w-xl text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                Here&apos;s a quick intro about me and what I love to do
+                Here&apos;s a glimpse into my journey and what quality means to me.
               </h2>
             </GridWrapper>
           </div>
@@ -104,23 +104,21 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  My programming origins
+                  My QA origins
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When Apple unveiled the first iPad with its beautiful 1024x768
-                  display, I knew I had to create for it. I taught myself mobile
-                  development while freelancing, and soon I was shipping iOS and
-                  Android apps. One of my games even climbed above Angry Birds
-                  in the charts for a while—which still makes me smile when I
-                  think about it.
-                </p>
+                I started my QA journey over 12 years ago, initially driven by a curiosity for how things break. That curiosity quickly evolved into a passion for maintaining product quality and creating seamless user experiences.
+              </p>
+              <p className="mb-6 text-base leading-8 text-text-secondary">
+                From manual testing to implementing automation suites, I’ve worked closely with engineers, designers, and product managers to ship reliable releases.
+              </p>
               </div>
               <div className="hidden lg:order-1 lg:block">
                 <div className="relative mx-auto w-fit">
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <img
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                    src="/knights_kwest.jpeg"
+                    src="/tillydanh_headshot_4.png"
                     alt="A headshot"
                   />
                 </div>
@@ -135,29 +133,27 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <img
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                      src="/c3_speaker_head.png"
+                      src="/tilly_danh_wild_jungle.png"
                       alt="Speaking at C3 Conf!"
                     />
                   </div>
                 </div>
-                <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  Finding My Way to Web
-                </h2>
-                <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Despite my love for mobile development, the web kept calling
-                  my name. With my eye for design, frontend felt like the
-                  perfect playground. I dove into HTML, CSS, and JavaScript—with
-                  React in 2016 becoming my game-changer. A few months later and
-                  I had landed my first full-time web dev role and never looked
-                  back.
-                </p>
+                <h2 className="mb-6 w-full text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
+                Philosophy on Quality
+              </h2>
+              <p className="mb-6 text-base leading-8 text-text-secondary">
+                Quality is more than just finding bugs—it&apos;s about empathy, clear communication, and building trust in every interaction. I believe QA plays a vital role in shaping the user experience.
+              </p>
+              <p className="mb-6 text-base leading-8 text-text-secondary">
+                I focus on the end-to-end journey: from early test planning and risk analysis to post-release verification and automation.
+              </p>
               </div>
               <div className="hidden lg:block">
                 <div className="relative mx-auto w-fit">
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <img
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                    src="/braydon_headshot_3.jpg"
+                    src="/tillydanh_headshot_3.png"
                     alt="Speaking at C3 Conf!"
                   />
                 </div>
@@ -172,34 +168,23 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <img
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                      src="/braydon_and_pj.jpeg"
+                      src="/family_dalat.png"
                       alt="A headshot"
                     />
                   </div>
                 </div>
-                <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  Life Beyond Code
-                </h2>
-                <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When I met PeggyJean, I knew pretty quickly she was the one.
-                  After proposing, we had grand wedding plans – until COVID
-                  happened. We pivoted (developer joke!) and had a small,
-                  intimate ceremony in 2020 that turned out more perfect than we
-                  could have imagined.
-                </p>
-                <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Family has always been my center, and seeing ours grow has
-                  been life&apos;s greatest joy. Our daughter ElizaJane arrived
-                  in 2021, bringing endless wonder to our days, and little Renny
-                  joined our crew in 2023, completing our circle.
-                </p>
+                <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">Life Beyond the Screen</h2>
+<p className="mb-6 text-base leading-8 text-text-secondary">
+Quality assurance is all about understanding complexity — something life has also taught me in its own way. Along my journey, I&apos;ve shared life with three partners, each chapter shaping the person I am today.
+</p>
+
               </div>
               <div className="hidden lg:block">
                 <div className="relative mx-auto w-fit">
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <img
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                    src="/braydon_and_pj.jpeg"
+                    src="/family_dalat.png"
                     alt="A headshot"
                   />
                 </div>
@@ -214,34 +199,27 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <img
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                      src="/braydon_speaking_photo.jpeg"
+                      src="/tillydanh_headshot_2.png"
                       alt="A headshot"
                     />
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  These Days
+                  Today
                 </h2>
-                <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Currently, I&apos;m leading teams at LogicGate as a Senior
-                  Frontend Engineer where we&apos;re building some pretty
-                  awesome stuff. Speaking at tech conferences has become a
-                  regular part of my year.
-                </p>
-                <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When I&apos;m not working, you&apos;ll find me on creative
-                  coding side projects, writing for my blog, failing
-                  spectacularly at games with friends, or—best of all—hanging
-                  out with my family, usually with coffee nearby and dad jokes
-                  at the ready.
-                </p>
+                 <p className="mb-6 text-base leading-8 text-text-secondary">
+                Currently, I’m working on enterprise-scale quality frameworks and mentoring the next generation of QA engineers. My focus is automation, performance testing, and improving feedback loops.
+              </p>
+              <p className="mb-6 text-base leading-8 text-text-secondary">
+                Outside work, I enjoy reading, journaling, and exploring nature with my kids.
+              </p>
               </div>
               <div className="hidden lg:block">
                 <div className="relative mx-auto w-fit">
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <img
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                    src="/braydon_speaking_photo.jpeg"
+                    src="/tillydanh_headshot_2.png"
                     alt="A headshot"
                   />
                 </div>

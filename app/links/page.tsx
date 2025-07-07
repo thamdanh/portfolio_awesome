@@ -14,18 +14,18 @@ export default async function LinksPage() {
 
   return (
     <div className="relative">
-      <title>Links | Braydon Coyer</title>
+      <title>Links | Tilly Danh</title>
       <div className="space-y-12">
         <ProfilePicture />
         <GridWrapper>
           <h1 className="mx-auto max-w-2xl text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]">
-            Hey, I&apos;m Braydon!
+            Hey, I&apos;m Tilly!
           </h1>
         </GridWrapper>
         <GridWrapper>
           <div className="mx-auto max-w-xl text-center md:mt-8">
             <p className="leading-8 text-text-secondary">
-              I&apos;m a front-end developer, team lead, blogger and
+              I&apos;m a QA engineer, team lead, blogger and
               international public speaker.
             </p>
           </div>
@@ -47,7 +47,7 @@ export default async function LinksPage() {
         </GridWrapper>
         <GridWrapper>
           <div className="relative mx-auto grid max-w-2xl grid-cols-3 place-items-center justify-items-center">
-            <a
+            {/*<a
               href={siteMetadata.twitter}
               target="_blank"
               rel="noopener noreferrer"
@@ -77,7 +77,7 @@ export default async function LinksPage() {
                   <p className="mt-3 text-sm text-gray-500">Twitter</p>
                 </div>
               </div>
-            </a>
+            </a>*/}
             <a
               href={siteMetadata.linkedin}
               target="_blank"

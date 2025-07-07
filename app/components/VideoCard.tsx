@@ -42,7 +42,7 @@ export function VideoCard({
           }}
           className="group relative"
         >
-          <Image
+          <img
             src={thumbnailUrl}
             width={400}
             height={225}
@@ -65,7 +65,7 @@ export function VideoCard({
         </div>
       ) : (
         <div className="relative">
-          <Image
+          <img
             src={thumbnailUrl}
             width={400}
             height={225}

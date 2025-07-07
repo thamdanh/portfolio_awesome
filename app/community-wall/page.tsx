@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { CommunityWallModal } from "@/app/components/CommunityWallModal";
 import createSupabaseServerClient from "@/app/lib/supabase/server";
 import { CommunityWallCard } from "@/app/components/CommunityWallCard";
 
@@ -21,8 +20,7 @@ export default async function Page({ searchParams }: SearchParamProps) {
 
   return (
     <>
-      <title>Community Wall | Braydon Coyer</title>
-      {show ? <CommunityWallModal /> : null}
+      <title>Community Wall | Tilly Danh</title>
       <div className="absolute inset-0 top-0 bg-[radial-gradient(#e5e7eb_1px,transparent_2px)] [background-size:16px_16px]"></div>
       <div className="flex flex-wrap justify-center gap-24 p-12">
         {messages?.map((message) => (

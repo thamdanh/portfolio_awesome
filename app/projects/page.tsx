@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { GridWrapper } from "@/app/components/GridWrapper";
 
 interface Project {
