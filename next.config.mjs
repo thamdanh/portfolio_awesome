@@ -6,14 +6,11 @@ if (!process.env.VELITE_STARTED && (isDev || isBuild)) {
   await build({ watch: isDev, clean: !isDev });
 }
 
+console.log(`Next.config.ts print env variables`, process.env.NEXT_PUBLIC_SUPABASE_URL)
+
 /** @type {import('next').NextConfig} */
 const config = {
   // output: "export", // ✅ Enable static export 
-  images: {
-    unoptimized: true, // ✅ Required for <Image /> to work in static HTML
-  },
-  basePath: "/porfolio", // MUST match your GitHub repo name
-  assetPrefix: "/porfolio", // Ensures assets resolve correctly
 };
 
 export default config;
